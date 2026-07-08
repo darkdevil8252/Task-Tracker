@@ -1,0 +1,16 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "A simple offline CLI for managing a to-do list",
+  "main": "bin/index.js",
+  "bin": {
+    "task-tracker": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
